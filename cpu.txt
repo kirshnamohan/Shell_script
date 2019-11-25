@@ -1,0 +1,16 @@
+ echo "Dear Customer,";
+ echo " We checked and found that CPU Utilization came to normal. Hence we are closing this ticket "
+echo "Current Time:";
+echo "=============";
+date;echo "Server Detail:";
+echo "==============";
+hostname;
+/sbin/ip r|grep -i src;
+echo "CPU Utilization:";
+echo "==============";
+echo "Top utilization Processes:";
+echo "--------------------------";
+top -b n1|head -10; 
+echo "Thanks"
+ echo "Krishnamohan S"
+

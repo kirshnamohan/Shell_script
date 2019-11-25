@@ -1,0 +1,96 @@
+
+#####################################################################
+    Health Check Report (CPU,Process,Disk Usage, Memory)
+#####################################################################
+
+
+Hostname         : unixinventory.sify.com
+Kernel Version   : 2.6.32-754.9.1.el6.x86_64
+Uptime           : 7 days
+Last Reboot Time : 2019-03-31 07:20
+
+
+
+*********************************************************************
+CPU Load - > Threshold < 1 Normal > 1 Caution , > 2 Unhealthy 
+*********************************************************************
+
+
+CPU0 : 0.07
+CPU1 : 0.03
+CPU2 : 0.04
+CPU3 : 0.02
+
+Load Average   :  0.04
+
+Heath Status : Normal
+
+
+*********************************************************************
+                             Process
+*********************************************************************
+
+=> Top memory using processs/application
+
+PID %MEM RSS COMMAND
+2240 1.0 38512 /usr/libexec/sssd/sssd_be
+3263 0.4 18528 /usr/bin/Xorg
+3391 0.4 14968 /usr/libexec/gdm-simple-greeter
+3375 0.3 11816 /usr/libexec/gnome-settings-daemon
+3390 0.3 11268 plymouth-log-viewer
+3386 0.2 8848 metacity
+3389 0.2 8288 gnome-power-manager
+3349 0.2 7580 /usr/bin/gnome-session
+3388 0.1 7036 /usr/libexec/polkit-gnome-authentication-agent-1
+3045 0.1 5908 /usr/bin/python
+
+=> Top CPU using process/application
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND                                                                                                    
+ 3263 root      20   0  175m  18m 7124 S  2.0  0.5   2:54.40 Xorg                                                                                                       
+    1 root      20   0 35760 1652 1300 S  0.0  0.0   0:01.06 init                                                                                                       
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.01 kthreadd                                                                                                   
+    3 root      RT   0     0    0    0 S  0.0  0.0   0:00.18 migration/0                                                                                                
+    4 root      20   0     0    0    0 S  0.0  0.0   0:00.28 ksoftirqd/0                                                                                                
+    5 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/0                                                                                                  
+    6 root      RT   0     0    0    0 S  0.0  0.0   0:00.55 watchdog/0                                                                                                 
+    7 root      RT   0     0    0    0 S  0.0  0.0   0:00.78 migration/1                                                                                                
+    8 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 stopper/1                                                                                                  
+    9 root      20   0     0    0    0 S  0.0  0.0   0:00.15 ksoftirqd/1                                                                                                
+
+*********************************************************************
+Disk Usage - > Threshold < 90 Normal > 90% Caution > 95 Unhealthy
+*********************************************************************
+
+/dev/mapper/VolGroup-lv_root / 85% used 7.1G free space
+
+tmpfs /dev/shm 0% used 1.8G free space
+
+/dev/sda1 /boot 19% used 368M free space
+
+/dev/mapper/VolGroup-lv_home /home 83% used 69G free space
+
+
+
+Heath Status
+
+/dev/mapper/VolGroup-lv_root / 		 Normal
+tmpfs /dev/shm 		 Normal
+/dev/sda1 /boot 		 Normal
+/dev/mapper/VolGroup-lv_home /home 		 Normal
+
+*********************************************************************
+		     Memory 
+*********************************************************************
+
+=> Physical Memory
+
+Total	Used	Free	%Free
+
+3.54GB	3.41GB 	0.12GB	3%
+
+=> Swap Memory
+
+Total	Used	Free	%Free
+
+3.68GB	0GB	3.68GB	100%
+

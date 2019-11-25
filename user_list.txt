@@ -1,0 +1,803 @@
+[H[2J------------------------------100.64.29.52---------------------------------
+Details of server
+SANDBOX
+Today:
+Wed Jul 24 00:19:33 IST 2019
+Server Detail:
+==============
+SANDBOX
+IP Details:
+===========
+100.64.29.0/24 dev eth0 proto kernel scope link src 100.64.29.52 
+100.64.124.0/22 dev eth2 proto kernel scope link src 100.64.124.29 
+172.18.0.32/28 dev eth1 proto kernel scope link src 172.18.0.39 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+uucp
+sifyadmin
+uuidd
+backupadmin
+sifysap
+akashwarade
+
+
+
+===============================================================================
+------------------------------100.64.29.50---------------------------------
+Details of server
+ECSAPRTR
+Today:
+Wed Jul 24 00:19:34 IST 2019
+Server Detail:
+==============
+ECSAPRTR
+IP Details:
+===========
+100.64.29.0/24 dev eth4 proto kernel scope link src 100.64.29.50 
+100.64.124.0/22 dev eth5 proto kernel scope link src 100.64.124.36 
+172.18.0.32/28 dev eth3 proto kernel scope link src 172.18.0.41 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+uucp
+uuidd
+backupadmin
+emamiadmin
+sifyadmin
+sifysap
+testvnc
+
+
+
+===============================================================================
+------------------------------100.64.29.40---------------------------------
+Details of server
+ECECCDEV
+Today:
+Wed Jul 24 00:19:34 IST 2019
+Server Detail:
+==============
+ECECCDEV
+IP Details:
+===========
+100.64.29.0/24 dev eth1  proto kernel  scope link  src 100.64.29.40 
+100.64.124.0/22 dev eth2  proto kernel  scope link  src 100.64.124.37 
+172.18.0.32/28 dev eth0  proto kernel  scope link  src 172.18.0.40 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+uucp
+uuidd
+backupadmin
+sifyadmin
+sifysap
+test
+
+
+
+===============================================================================
+------------------------------100.64.29.6---------------------------------
+Details of server
+ECECCPRD
+Today:
+Wed Jul 24 00:19:35 IST 2019
+Server Detail:
+==============
+ECECCPRD
+IP Details:
+===========
+100.64.29.0/24 dev eth0  proto kernel  scope link  src 100.64.29.6 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.45 
+172.18.0.16/28 dev eth1  proto kernel  scope link  src 172.18.0.18 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+sifyadmin
+emamiadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.7---------------------------------
+Details of server
+ECEPPRD
+Today:
+Wed Jul 24 00:19:35 IST 2019
+Server Detail:
+==============
+ECEPPRD
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.7 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.44 
+172.18.0.16/28 dev eth1  proto kernel  scope link  src 172.18.0.19 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+sifyadmin
+emamiadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------192.168.112.9---------------------------------
+Details of server
+hanaeccprd
+Today:
+Wed Jul 24 00:19:36 IST 2019
+Server Detail:
+==============
+hanaeccprd
+IP Details:
+===========
+100.64.124.0/22 dev bond1  proto kernel  scope link  src 100.64.124.49 
+172.18.0.32/28 dev bond0  proto kernel  scope link  src 172.18.0.35 
+192.168.112.0/21 dev bond_mngmt  proto kernel  scope link  src 192.168.112.9 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+admin
+backupadmin
+emamiadmin
+sifyadmin
+sifysap
+sapadmin
+
+
+
+===============================================================================
+------------------------------192.168.112.10---------------------------------
+Details of server
+hanabwprd
+Today:
+Wed Jul 24 00:19:36 IST 2019
+Server Detail:
+==============
+hanabwprd
+IP Details:
+===========
+100.64.124.0/22 dev bond1  proto kernel  scope link  src 100.64.124.46 
+172.18.0.32/28 dev bond0  proto kernel  scope link  src 172.18.0.36 
+192.168.112.0/21 dev bond_magmt  proto kernel  scope link  src 192.168.112.10 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+backupadmin
+emamiadmin
+sifyadmin
+sifysap
+test
+sapadmin
+bwadmin
+
+
+
+===============================================================================
+------------------------------100.64.28.20---------------------------------
+Details of server
+hanaeccdev
+Today:
+Wed Jul 24 00:19:37 IST 2019
+Server Detail:
+==============
+hanaeccdev
+IP Details:
+===========
+100.64.28.0/24 dev bond1  proto kernel  scope link  src 100.64.28.20 
+100.64.124.0/22 dev bond2  proto kernel  scope link  src 100.64.124.48 
+172.18.0.32/28 dev bond0  proto kernel  scope link  src 172.18.0.42 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+backupadmin
+sifyadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.42---------------------------------
+Details of server
+ECECCQAS
+Today:
+Wed Jul 24 00:19:37 IST 2019
+Server Detail:
+==============
+ECECCQAS
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.42 
+100.64.124.0/22 dev eth0  proto kernel  scope link  src 100.64.124.43 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.2 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+backupadmin
+sifyadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.43---------------------------------
+Details of server
+ECEPDEV
+Today:
+Wed Jul 24 00:19:38 IST 2019
+Server Detail:
+==============
+ECEPDEV
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.43 
+100.64.124.0/22 dev eth0  proto kernel  scope link  src 100.64.124.42 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.3 
+===User List===
+bin
+daemon
+lp
+games
+ftp
+nobody
+man
+news
+uucp
+at
+suse-ncc
+sifyadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.44---------------------------------
+Details of server
+ECEPQAS
+Today:
+Wed Jul 24 00:19:38 IST 2019
+Server Detail:
+==============
+ECEPQAS
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.44 
+100.64.124.0/22 dev eth0  proto kernel  scope link  src 100.64.124.41 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.4 
+===User List===
+bin
+daemon
+lp
+games
+ftp
+nobody
+man
+news
+uucp
+at
+suse-ncc
+sifyadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.45---------------------------------
+Details of server
+ECNWGDEV
+Today:
+Wed Jul 24 00:19:38 IST 2019
+Server Detail:
+==============
+ECNWGDEV
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.45 
+100.64.124.0/22 dev eth0  proto kernel  scope link  src 100.64.124.40 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.5 
+===User List===
+bin
+daemon
+lp
+games
+ftp
+nobody
+man
+news
+uucp
+at
+suse-ncc
+sifyadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.46---------------------------------
+Details of server
+ECNWGPRD
+Today:
+Wed Jul 24 00:19:39 IST 2019
+Server Detail:
+==============
+ECNWGPRD
+IP Details:
+===========
+100.64.29.0/24 dev eth0  proto kernel  scope link  src 100.64.29.46 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.39 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.6 
+===User List===
+bin
+daemon
+lp
+games
+ftp
+nobody
+man
+news
+uucp
+at
+suse-ncc
+sifyadmin
+backupadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.49---------------------------------
+Details of server
+ECWEBQAS
+Today:
+Wed Jul 24 00:19:39 IST 2019
+Server Detail:
+==============
+ECWEBQAS
+IP Details:
+===========
+100.64.29.0/24 dev eth3  proto kernel  scope link  src 100.64.29.49 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.9 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+admin
+sifyadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.48---------------------------------
+Details of server
+ECWEBPRD
+Today:
+Wed Jul 24 00:19:40 IST 2019
+Server Detail:
+==============
+ECWEBPRD
+IP Details:
+===========
+100.64.29.0/24 dev eth1  proto kernel  scope link  src 100.64.29.48 
+172.18.0.0/28 dev eth2  proto kernel  scope link  src 172.18.0.8 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+sifyadmin
+admin
+sifysap
+
+
+
+===============================================================================
+------------------------------100.64.29.47---------------------------------
+Details of server
+ECNWGQAS
+Today:
+Wed Jul 24 00:19:40 IST 2019
+Server Detail:
+==============
+ECNWGQAS
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.47 
+100.64.124.0/22 dev eth0  proto kernel  scope link  src 100.64.124.38 
+172.18.0.0/28 dev eth1  proto kernel  scope link  src 172.18.0.7 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+suse-ncc
+uucp
+backupadmin
+sifyadmin
+sifysap
+
+
+
+===============================================================================
+------------------------------192.168.112.24---------------------------------
+Details of server
+hanabwdev
+Today:
+Wed Jul 24 00:19:41 IST 2019
+Server Detail:
+==============
+hanabwdev
+IP Details:
+===========
+100.64.124.0/22 dev bond2  proto kernel  scope link  src 100.64.124.47 
+172.18.0.32/28 dev bond1  proto kernel  scope link  src 172.18.0.37 
+192.168.112.0/21 dev bond0  proto kernel  scope link  src 192.168.112.24 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+sifyadmin
+test
+backupadmin
+sapadmin
+bwadmin
+
+
+
+===============================================================================
+------------------------------100.64.29.3---------------------------------
+Details of server
+ecbwdev
+Today:
+Wed Jul 24 00:19:41 IST 2019
+Server Detail:
+==============
+ecbwdev
+IP Details:
+===========
+100.64.29.0/24 dev eth0  proto kernel  scope link  src 100.64.29.3 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.35 
+172.18.0.16/28 dev eth2  proto kernel  scope link  src 172.18.0.20 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+nobody
+root
+suse-ncc
+sifyadmin
+man
+news
+uucp
+backupadmin
+sapadmin
+bwadmin
+bodadmin
+
+
+
+===============================================================================
+------------------------------100.64.29.4---------------------------------
+Details of server
+ecbwprd
+Today:
+Wed Jul 24 00:19:42 IST 2019
+Server Detail:
+==============
+ecbwprd
+IP Details:
+===========
+100.64.29.0/24 dev eth0  proto kernel  scope link  src 100.64.29.4 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.30 
+172.18.0.16/28 dev eth2  proto kernel  scope link  src 172.18.0.21 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+backupadmin
+bopadm
+bwadmin
+sapadmin
+sifyadmin
+
+
+
+===============================================================================
+------------------------------100.64.29.5---------------------------------
+Details of server
+ecbwqas
+Today:
+Wed Jul 24 00:19:42 IST 2019
+Server Detail:
+==============
+ecbwqas
+IP Details:
+===========
+100.64.29.0/24 dev eth0  proto kernel  scope link  src 100.64.29.5 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.34 
+172.18.0.16/28 dev eth2  proto kernel  scope link  src 172.18.0.22 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+backupadmin
+boqadm
+bwadmin
+sapadmin
+sifyadmin
+
+
+
+===============================================================================
+------------------------------192.168.57.87---------------------------------
+Details of server
+hanaeccprddr
+Today:
+Wed Jul 24 00:19:43 IST 2019
+Server Detail:
+==============
+hanaeccprddr
+IP Details:
+===========
+172.20.38.0/27 dev bond0  proto kernel  scope link  src 172.20.38.2 
+192.168.56.0/22 dev bond1  proto kernel  scope link  src 192.168.57.87 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+man
+news
+nobody
+root
+suse-ncc
+uucp
+sifyadmin
+admin
+sapadm
+copy
+copy1
+sapadmin
+
+
+
+===============================================================================
+------------------------------192.168.57.21---------------------------------
+------------------------------100.64.29.10---------------------------------
+Details of server
+ECPOQAS
+Today:
+Wed Jul 24 00:21:00 IST 2019
+Server Detail:
+==============
+ECPOQAS
+IP Details:
+===========
+100.64.29.0/24 dev eth3  proto kernel  scope link  src 100.64.29.10 
+100.64.124.0/22 dev eth1  proto kernel  scope link  src 100.64.124.33 
+172.18.0.16/28 dev eth0  proto kernel  scope link  src 172.18.0.25 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+nobody
+root
+suse-ncc
+sifyadmin
+man
+news
+uucp
+emamiadmin
+backupadmin
+
+
+
+===============================================================================
+------------------------------100.64.29.9---------------------------------
+Details of server
+ECPOPRD
+Today:
+Wed Jul 24 00:21:23 IST 2019
+Server Detail:
+==============
+ECPOPRD
+IP Details:
+===========
+100.64.29.0/24 dev eth2  proto kernel  scope link  src 100.64.29.9 
+100.64.124.0/22 dev eth4  proto kernel  scope link  src 100.64.124.32 
+172.18.0.16/28 dev eth6  proto kernel  scope link  src 172.18.0.26 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+nobody
+root
+suse-ncc
+sifyadmin
+man
+news
+uucp
+emamiadmin
+backupadmin
+
+
+
+===============================================================================
+------------------------------100.64.29.8---------------------------------
+Details of server
+ECPODEV
+Today:
+Wed Jul 24 00:21:29 IST 2019
+Server Detail:
+==============
+ECPODEV
+IP Details:
+===========
+100.64.29.0/24 dev eth1  proto kernel  scope link  src 100.64.29.8 
+100.64.124.0/22 dev eth3  proto kernel  scope link  src 100.64.124.31 
+172.18.0.16/28 dev eth0  proto kernel  scope link  src 172.18.0.27 
+===User List===
+at
+bin
+daemon
+ftp
+games
+lp
+nobody
+root
+suse-ncc
+sifyadmin
+man
+news
+uucp
+emamiadmin
+backupadmin
+
+
+
+===============================================================================

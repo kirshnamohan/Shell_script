@@ -1,0 +1,214 @@
+[H[2JDetails of server
+ebs-prd-db.sify.net
+Today:
+Fri Apr 12 20:18:35 IST 2019
+Server Detail:
+==============
+ebs-prd-db.sify.net
+Internal IP Details:
+====================
+100.64.122.138 100.64.68.14 172.20.51.131 
+External IP Details:
+====================
+223.30.77.195
+===User List===
+root
+sifyadmin
+dbadmin
+sifyr12
+oracle
+applmgr
+oraprd
+oragrid
+oratst
+backupadmin
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-stby.sify.net
+Today:
+Fri Apr 12 20:18:44 IST 2019
+Server Detail:
+==============
+ebs-prd-stby.sify.net
+Internal IP Details:
+====================
+100.64.68.15 172.20.51.130 
+External IP Details:
+====================
+223.30.77.195
+===User List===
+root
+sifyadmin
+dbadmin
+sifyr12
+oracle
+applmgr
+oraprd
+oragrid
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-app1.sify.net
+Today:
+Fri Apr 12 20:18:52 IST 2019
+Server Detail:
+==============
+ebs-prd-app1.sify.net
+Internal IP Details:
+====================
+192.168.58.241 172.20.52.133 100.64.121.41 
+External IP Details:
+====================
+223.31.223.126
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+appltst
+backupadmin
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-app2.sify.net
+Today:
+Fri Apr 12 20:18:59 IST 2019
+Server Detail:
+==============
+ebs-prd-app2.sify.net
+Internal IP Details:
+====================
+192.168.58.242 172.20.52.155 100.64.122.142 
+External IP Details:
+====================
+223.31.223.127
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+appltst
+backupadmin
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-app3.sify.net
+Today:
+Fri Apr 12 20:19:07 IST 2019
+Server Detail:
+==============
+ebs-prd-app3.sify.net
+Internal IP Details:
+====================
+192.168.58.42 172.20.52.138 
+External IP Details:
+====================
+223.31.223.145
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+appltst
+backupadmin
+teamisadmin
+test
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-app4.sify.net
+Today:
+Fri Apr 12 20:19:13 IST 2019
+Server Detail:
+==============
+ebs-prd-app4.sify.net
+Internal IP Details:
+====================
+192.168.58.43 172.20.52.139 
+External IP Details:
+====================
+223.31.223.146
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+appltst
+backupadmin
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-dmz1.sify.net
+Today:
+Fri Apr 12 20:19:20 IST 2019
+Server Detail:
+==============
+ebs-prd-dmz1.sify.net
+Internal IP Details:
+====================
+192.168.58.243 172.20.52.135 
+External IP Details:
+====================
+223.31.223.128
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+
+
+
+===============================================================================
+[H[2JDetails of server
+ebs-prd-dmz2.sify.net
+Today:
+Fri Apr 12 20:19:27 IST 2019
+Server Detail:
+==============
+ebs-prd-dmz2.sify.net
+Internal IP Details:
+====================
+192.168.58.244 172.20.52.137 
+External IP Details:
+====================
+223.31.223.129
+===User List===
+root
+admin
+sifyadmin
+sifyr12
+oracle
+applmgr
+applprd
+
+
+
+===============================================================================
