@@ -11,7 +11,8 @@
 ###				8. Top 2 disk Usage 								###
 ###				9. Looking for files with 777 Permission            ###
 ### Author    : krishnamohan.s@globallogic.com                      ###
-### Date      : 25 NOV 2019                                         ###
+### Date      : 26 NOV 2019          								###
+### CRONTAB	  : 0 1 * * * /Filepath/Server_details_GL.sh#AllDay 1AM ###
 #######################################################################
 ###
 ### Defining Global Varaibles ###
@@ -20,7 +21,6 @@ DF=`which df`
 FREE=`which free`
 UPTIME=`which uptime`
 USER=`which w`
-C_DISP=`which cat`
 E_DISP=`which echo`
 HOST=`which hostname`
 PROC=`which ps`
@@ -33,65 +33,77 @@ TOP=`which top`
 
 
 ###Displaying Server Details ###
-echo "            ################          "
-echo "            #Server Details#          "
-echo "            ################          "
-echo "Hostname of an Server"
-echo "====================="
+$E_DISP "            ################          "
+$E_DISP "            #Server Details#          "
+$E_DISP "            ################          "
+$E_DISP "Hostname of an Server"
+$E_DISP "====================="
 #/bin/hostname
 $HOSTNAME
-echo
+$E_DISP
 
-echo "File system Usage"
-echo "================="
+$E_DISP "File system Usage"
+$E_DISP "================="
 $DF -hT --total
-echo
+$E_DISP
 
-echo "Memory free space and Usage"
-echo "==========================="
+$E_DISP "Memory free space and Usage"
+$E_DISP "==========================="
 $FREE -h
-echo
+$E_DISP
 
-echo "System Uptime and Load"
-echo "======================"
+$E_DISP "System Uptime and Load"
+$E_DISP "======================"
 $UPTIME
-echo
+$E_DISP
 
-echo "Currently logged in User"
-echo "========================"
+$E_DISP "Currently logged in User"
+$E_DISP "========================"
 $USER
-echo
+$E_DISP
 
-echo "Top 5 Memory consuming Process"
-echo "=============================="
+$E_DISP "Top 5 Memory consuming Process"
+$E_DISP "=============================="
 $PROC -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | $HEAD -n6
-echo
-echo "Memory Used"
-echo "==========="
+$E_DISP
+#$E_DISP "Memory Used in Percentage"
+#$E_DISP "========================="
 #$FREE | $AWK 'FNR == 5 {print $5/($5+$4)*100}'
-$FREE | $AWK 'FNR == 2{print $3/($3+$4)*100}'&& $FREE -h |$AWK 'FNR == 2 {print $3}'
-echo
-echo "Memory Unused"
-echo "============="
-$FREE | $AWK 'FNR == 2{print $4/($3+$4)*100}' && $FREE -h |$AWK 'FNR == 2 {print $4}'
-echo "Memory Available(Free + Shared + Buff/Cache)"
-echo "============================================"
+#$FREE | $AWK 'FNR == 2{print $3/($3+$4)*100}'
+$E_DISP
+$E_DISP "Memory Used in GB"
+$E_DISP "================="
+$FREE -h | $AWK 'FNR == 2 {print $3}'
+$E_DISP
+#$E_DISP "Memory Unused in Percentage"
+#$E_DISP "==========================="
+#$FREE | $AWK 'FNR == 2{print $4/($3+$4)*100}' 
+$E_DISP "Memory Unused in GB"
+$E_DISP "==================="
+$FREE -h |$AWK 'FNR == 2 {print $4}'
+$E_DISP
+$E_DISP "Memory In Buffer"
+$E_DISP "================"
+$FREE -h |$AWK 'FNR == 2 {print $6}'
+$E_DISP
+$E_DISP "Memory Available(Free + Shared + Buff/Cache)"
+$E_DISP "============================================"
 $FREE -h |$AWK 'FNR == 2 {print $7}'
-echo 
+$E_DISP 
 
-echo "Top 5 CPU consuming Process"
-echo "==========================="
+$E_DISP "Top 5 CPU consuming Process"
+$E_DISP "==========================="
 #$TOP -H -b n1|head -11 |tail -6
 $PROC -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | $HEAD -n6
-echo
+$E_DISP
 
-echo "Top 2 disk Usage"
-echo "================"
+$E_DISP "Top 2 disk Usage"
+$E_DISP "================"
 $DF -PhT | $AWK '0+$6 > 90{print}'|$HEAD -n2
-echo
+$E_DISP
 
-echo "Looking for files with 777 Permission"
-echo "====================================="
+$E_DISP "Looking for files with 777 Permission"
+$E_DISP "====================================="
 $FIND -type f -perm 0777
 #$FIND / -type f -perm 0777
-echo
+$E_DISP
