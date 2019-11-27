@@ -11,19 +11,17 @@
 ###             													###
 ###             -s is nonemptyfile		                            ###
 #######################################################################
-#!/bin/bash
-
-[ -s /root/Server_details_GL.sh ] && echo "File not empty" || echo "File empty"
-
-#if [ -s /root/Server_details_GL.sh]
-#then
-#     echo "File not empty"
-#else
-#     echo "File empty"
-#fi
-#
-#To find the empty files from current directory
+read -p "Enter the File name:" File_name
+#[ -s $File_name ] && echo "File not empty" || echo "File empty"
+#if [ -s /root/mohan ]
+if [ -s $File_name ]
+then
+     echo "File not empty"
+else
+     echo "File empty"
+fi
 #find  . -type f -empty
-#To find the empty directory from current directory
+
 #find  . -type d -empty
+
 
